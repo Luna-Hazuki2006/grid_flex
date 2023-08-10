@@ -10,11 +10,11 @@ a {
 
 .container {
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 header {
-    height: 150px;  
+    height: 150px;
     background-color: #FF4945;
 }
 
@@ -22,8 +22,6 @@ header {
     height: 300px;
     color: white;
     background-color: #FFA931;
-    display: grid;
-    grid-column: 1fr 5fr;
 }
 
 .sidebar {
