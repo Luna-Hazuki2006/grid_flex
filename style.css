@@ -29,6 +29,10 @@ header {
     grid-area: header;
 }
 
+button {
+    width: 10%;
+}
+
 .main {
     height: 300px;
     color: white;
