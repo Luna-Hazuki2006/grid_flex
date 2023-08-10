@@ -40,14 +40,14 @@ button {
 
 .main {
     height: 300px;
-    width: 75%;
+    width: 70%;
     color: white;
     background-color: #FFA931;
 }
 
 .sidebar {
     height: 300px;
-    width: 25%;
+    width: 30%;
     color: white;
     background-color: #9B0579;
 }
