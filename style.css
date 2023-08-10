@@ -33,6 +33,10 @@ ul li:first-of-type ~ li {
     flex-direction: column;
 }
 
+button {
+    width: 10%;
+}
+
 .main {
     height: 300px;
     width: 90%;
