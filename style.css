@@ -35,7 +35,7 @@ ul li:first-of-type ~ li {
 }
 
 button {
-    width: 20%;
+    width: 100%;
 }
 
 .main {
