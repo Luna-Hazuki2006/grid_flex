@@ -10,28 +10,42 @@ a {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: 150px 1fr 100px;
+    grid-template-areas: 
+    "header header" 
+    "sidebar main" 
+    "footer footer";
+}
+
+li {
+    list-style-type: none;
 }
 
 header {
     height: 150px;
     background-color: #FF4945;
+    width: 100%;
+    grid-area: header;
 }
 
 .main {
     height: 300px;
     color: white;
     background-color: #FFA931;
+    grid-area: main;
 }
 
 .sidebar {
     height: 300px;
     color: white;
     background-color: #9B0579;
+    grid-area: sidebar;
 }
 
 footer {
     height: 100px;
     color: white;
     background-color: #00778F;
+    grid-area: footer;
 }
