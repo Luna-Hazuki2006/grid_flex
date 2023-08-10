@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+.container {
+    display: flex;
+}
+
 header {
     height: 150px;  
     background-color: #FF4945;
