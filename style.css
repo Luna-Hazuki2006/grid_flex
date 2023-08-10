@@ -2,15 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
-a {    
+a {
     text-decoration: none;
 }
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 9fr;
+    grid-template-columns: 2fr 8fr;
     grid-template-rows: 150px 1fr 100px;
     grid-template-areas: 
     "header header" 
@@ -30,7 +31,7 @@ header {
 }
 
 button {
-    width: 10%;
+    width: 20%;
 }
 
 .main {
